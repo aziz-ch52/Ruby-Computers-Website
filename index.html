@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruby Computers | Dahod's Trusted IT & Security Partner</title>
+    <!-- Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet" />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+  </head>
+  <body data-theme="dark">
+    <!-- Forced default to Dark Mode -->
+
+    <header>
+      
+    <a href="#" class="logo">
+        <i data-lucide="monitor"></i>
+        RUBY COMPUTERS
+    </a>
+    
+    <button class="menu-toggle" id="menuToggle">
+        <i data-lucide="menu"></i>
+    </button>
+
+    <nav id="navMenu">
+        <a href="#expertise">Expertise</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+        <a href="https://wa.me/917405562072" class="d-lg-none">WhatsApp Support</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark and light mode">
+            <i data-lucide="sun" id="themeIcon"></i>
+            <span id="themeLabel">DARK</span>
+        </button>
+        <a href="https://wa.me/917405562072" class="btn-support-nav" target="_blank">Support</a>
+    </div>
+</header>
+
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <h1>Expert Tech & Security for Dahod.</h1>
+        <p>
+          Certified CCTV installation and specialist hardware repairs for local homes and
+          businesses. Technical expertise built on trust since 2010.
+        </p>
+        <div class="hero-btns">
+          <a href="#inventory" class="btn-primary">View Inventory</a>
+        </div>
+      </div>
+      <div class="hero-img-box reveal">
+        <img
+          src="Assets/Images/Products/Header Image.png"
+          alt="Specialist Hardware Workstation" />
+      </div>
+    </section>
+
+    <section class="expertise section-container" id="expertise">
+      <div class="section-header reveal">
+        <h2>Our Expertise</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <i data-lucide="camera" size="28"></i>
+          <h3>CCTV installation</h3>
+          <p>
+            Professional setup with mobile remote viewing. We focus on securing your perimeter with
+            high-end surveillance and smart motion technology.
+          </p>
+        </div>
+        <div class="service-card reveal">
+          <i data-lucide="cpu" size="28"></i>
+          <h3>Hardware Repair</h3>
+          <p>
+            Expert chip-level motherboards diagnosis. From broken hinges to recovery of lost data,
+            we handle all major repairs locally with precision.
+          </p>
+        </div>
+        <div class="service-card reveal">
+          <i data-lucide="printer" size="28"></i>
+          <h3>Printer Maintenance</h3>
+          <p>
+            Precise toner refilling and high-yield servicing for business printers. Ensuring minimal
+            downtime for your home or office operations.
+          </p>
+        </div>
+        <div class="service-card reveal">
+          <i data-lucide="hard-drive" size="28"></i>
+          <h3>Hardware Supply</h3>
+          <p>
+            Certified refurbished systems and accessories. Every item is rigorously tested and
+            backed by our reliable local Dahod support warranty.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section-container" id="products">
+      <div class="section-header reveal">
+        <h2>Current Inventory</h2>
+      </div>
+      <div class="tabs-container reveal">
+        <div class="tabs">
+          <button class="tab-btn active" data-filter="all">All Items</button>
+          <button class="tab-btn" data-filter="cctv">CCTV</button>
+          <button class="tab-btn" data-filter="pc">Computers</button>
+          <button class="tab-btn" data-filter="acc">Accessories</button>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <!-- Manual Product Selection -->
+
+        <!-- Item 1: CCTV -->
+        <div class="product-card reveal" data-category="cctv">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/HD Security Camera.jpg" alt="HD Security Camera" />
+          </div>
+          <div class="product-body">
+            <h3>HD Security Camera</h3>
+            <p>Specialist indoor dome camera with smart night vision and motion alerts.</p>
+            <div class="product-price">Starting from <span>₹1,250</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the HD Security Camera"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 2: CCTV -->
+        <div class="product-card reveal" data-category="cctv">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/Smart Wi-Fi System.png" alt="Smart Wi-Fi System" />
+          </div>
+          <div class="product-body">
+            <h3>Smart Wi-Fi System</h3>
+            <p>Easy cloud access camera with motion tracking sensors and mobile control.</p>
+            <div class="product-price">Starting from <span>₹1,999</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the Smart Wi-Fi System"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 3: CCTV -->
+        <div class="product-card reveal" data-category="cctv">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/4-Channel DVR System.png" alt="4-Channel DVR System" />
+          </div>
+          <div class="product-body">
+            <h3>4-Channel DVR System</h3>
+            <p>
+              Professional recording unit for continuous high-definition surveillance monitoring.
+            </p>
+            <div class="product-price">Starting from <span>₹4,500</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the 4-Channel DVR System"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 4: PC -->
+        <div class="product-card reveal" data-category="pc">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/ThinkPad T480 Refurbished.png" alt="ThinkPad T480" />
+          </div>
+          <div class="product-body">
+            <h3>ThinkPad T480 Refurbished</h3>
+            <p>Business-ready unit, 8GB RAM / 256GB SSD. Fully tested and Dahod certified.</p>
+            <div class="product-price">Starting from <span>₹18,500</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the ThinkPad T480"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 5: PC -->
+        <div class="product-card reveal" data-category="pc">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/Dell Student Workstation.png" alt="Dell Workstation" />
+          </div>
+          <div class="product-body">
+            <h3>Dell Student Workstation</h3>
+            <p>Stable performance for education and local office documentation tasks.</p>
+            <div class="product-price">Starting from <span>₹12,999</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the Dell Student Workstation"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 6: ACC -->
+        <div class="product-card reveal" data-category="acc">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/Replacement Power Adapter.png" alt="Power Adapter" />
+          </div>
+          <div class="product-body">
+            <h3>Replacement Power Adapter</h3>
+            <p>Universal charging units for HP, Dell, and Lenovo laptops with surge protection.</p>
+            <div class="product-price">Starting from <span>₹650</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the Replacement Power Adapter"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 7: ACC -->
+        <div class="product-card reveal" data-category="acc">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/Precision Keyboard Combo.png" alt="Keyboard Combo" />
+          </div>
+          <div class="product-body">
+            <h3>Precision Keyboard Combo</h3>
+            <p>Durable wireless mouse and keyboard set optimized for long working days.</p>
+            <div class="product-price">Starting from <span>₹1,450</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the Precision Keyboard Combo"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+
+        <!-- Item 8: ACC -->
+        <div class="product-card reveal" data-category="acc">
+          <div class="product-img-box">
+            <img src="Assets/Images/Products/High-Performance SSD.png" alt="SSD Upgrade" />
+          </div>
+          <div class="product-body">
+            <h3>High-Performance SSD</h3>
+            <p>Lightning fast 512GB storage upgrade to breathe new life into your old computer.</p>
+            <div class="product-price">Starting from <span>₹3,200</span></div>
+            <a
+              href="https://wa.me/917405562072?text=Hi, I am interested in the High-Performance SSD"
+              class="btn-check"
+              target="_blank"
+              >Check Availability</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Unified View More Bridge -->
+      <div style="text-align: center; margin-top: 56px" class="reveal">
+        <a
+          href="https://wa.me/917405562072?text=Hi Ruby Computers, I would like to see more products and services."
+          class="btn-primary"
+          >View More Products and Services</a
+        >
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section-container testimonials">
+      <div class="section-header reveal">
+        <h2>Local Client Feedback</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <p class="testimonial-text">
+            "The CCTV installation was incredibly professional. Remote viewing works perfectly on my
+            smartphone. Best service in Dahod."
+          </p>
+          <div class="testimonial-user">
+            <img src="Assets/Images/Customers/Client 1.png" alt="Ranjan Patel" />
+            <div>
+              <h4>Rajesh Patel</h4>
+              <p>Business Owner</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-text">
+            "Fixed my dead laptop motherboard in 48 hours. Honest pricing and they explain the issue
+            very clearly. Highly recommended."
+          </p>
+          <div class="testimonial-user">
+            <img src="Assets/Images/Customers/Client 2.png" alt="Amit kumar" />
+            <div>
+              <h4>Amit Kumar</h4>
+              <p>Dahod Professional</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="testimonial-text">
+            "Fast printer refilling and great service. The print quality is identical to original
+            cartridges but much more cost-effective."
+          </p>
+          <div class="testimonial-user">
+            <img src="Assets/Images/Customers/Client 3.png" alt="Vikram Rathore" />
+            <div>
+              <h4>Vikram Rathore</h4>
+              <p>Local Professional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="footer-grid reveal">
+        <div class="footer-brand">
+          <h2>RUBY COMPUTERS</h2>
+          <p>
+            Providing expert technology and security infrastructure support for the Dahod community
+            since 2010.
+          </p>
+          <!-- Instagram button -->
+          <a
+            href="https://www.instagram.com/ruby_computers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+            class="btn-insta-brand">
+            <i data-lucide="instagram" size="20"></i> Follow on Instagram
+          </a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Details</h4>
+          <ul>
+            <li><i data-lucide="map-pin" size="14"></i> Mission Hospital Road, Dahod</li>
+            <li><i data-lucide="phone" size="14"></i> +91 74055 62072</li>
+            <li><i data-lucide="clock" size="14"></i> Mon-Sat: 10 AM - 7 PM</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Locate Us</h4>
+          <div class="footer-map-box">
+            <!-- Standardized Embedded Map Link -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d841.4039416605399!2d74.25203901183681!3d22.8467558226647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39611d422970e1bf%3A0x6043dbefdae479d6!2sRuby%20Computers!5e1!3m2!1sen!2sin!4v1734186372702!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ruby Computers. Dahod IT & Security Specialist.</p>
+        <p>Trust • Quality • Support</p>
+      </div>
+
+      <div class="footer-credit-line">Site developed by Aziz Chharchhodawala.</div>
+    </footer>
+
+     <script src="Assets/script/script.js"></script>
+
+  </body>
+</html>
